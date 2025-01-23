@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Services d'entretien pour immeubles et bureaux.">
+    <title>Agent d'Entretien d'Immeubles et Bureaux</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Agent d'Entretien</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Nos Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">À Propos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+			<img src="agent_entretien.jpeg" width="500">
+			<img src="agent_entretien_2.jpeg" width="500">
+            <h2>Professionnels de l'entretien pour vos bureaux et immeubles</h2>
+            <p>Des solutions d'entretien sur-mesure pour garantir la propreté de vos espaces de travail.</p>
+            <a href="#contact" class="cta-button">Demander un devis</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <div class="service-card">
+                <h3>Entretien de bureaux</h3>
+                <p>Nettoyage régulier des bureaux, salles de réunion, et espaces communs et particuliers.</p>
+            </div>
+            <div class="service-card">
+                <h3>Entretien d'immeubles</h3>
+                <p>Maintenance et nettoyage des parties communes des immeubles.</p>
+            </div>
+            <div class="service-card">
+                <h3>Gestion des déchets</h3>
+                <p>Collecte et gestion des déchets dans les espaces professionnels.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>À Propos de Nous</h2>
+            <p>Je suis un agent d'entretien qualifiés, spécialisés dans le nettoyage d'immeubles et de bureaux. Mon objectif est de maintenir vos espaces de travail propres, sains et accueillants.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contactez-Nous</h2>
+            <p>Vous souhaitez plus d'informations ou obtenir un devis ? N'hésitez pas à nous contacter !</p>
+            <form action="https://formspree.io/f/movjqlea" method="POST">
+
+				<label for="email">Email :</label><br>
+				<input type="email" id="email" name="email" required><br><br>
+
+				<label for="message">Message :</label><br>
+				<textarea id="message" name="message" required></textarea><br><br>
+
+				<input type="submit" value="Envoyer la demande">
+			</form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Agent d'Entretien - Tous droits réservés</p>
+        </div>
+    </footer>
+</body>
+</html>
